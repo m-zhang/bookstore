@@ -6,8 +6,9 @@
 
 说明：将项目代码clone 到本地，安装pakeage.json里面的相关文件依赖。
 ```javascript
-//运行测试用例
+//运行测试用例 mocha --timeout 10000
 npm test
 
 ```
 
+项目源码中有两点需要注意安装mocha后会自动检索项目根目录下test路径，运行测试用例js文件，还有一点就是利用require('config')来加载/config 路径下的配置文件默认default.json,在运行测试用例需通过设置process.env.NODE_ENV = 'test'来切换到测试数据库。
