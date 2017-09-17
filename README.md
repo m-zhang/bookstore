@@ -5,7 +5,7 @@
 如果对英文阅读有困难的童鞋可以参考阮一峰老师的[测试框架 Mocha 实例教程](http://www.ruanyifeng.com/blog/2015/12/a-mocha-tutorial-of-examples.html) 简单比较容易理解。
 
 说明：将项目代码clone 到本地，安装pakeage.json里面的相关文件依赖。
-```javascript```
+```javascript
 //运行测试用例
 npm test
 
